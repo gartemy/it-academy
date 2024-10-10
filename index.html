@@ -6,7 +6,7 @@
 </head>
 <body> <!-- Основная часть документа -->
     <h1>Моя первая страница</h1> <!-- Заголовок 1 уровня -->
-    <h2>Содержание</h2> <!-- Заголовок 2 уровня -->
+    <h2 id="soderzhanie">Содержание</h2> <!-- Заголовок 2 уровня -->
     <ol> <!-- Нумерованный список -->
         <li>Параграфы и текст.</li> <!-- Пункты нумерованного списка -->
         <li>Блочные и строчные элементы.</li> <!-- Пункты нумерованного списка -->
@@ -56,6 +56,37 @@
 </div>
 <div>
     <img src="https://avatars.mds.yandex.net/i?id=9a4b6ab276b123764cdb5fe0e63ab8e08ee00040-10150420-images-thumbs&ref=rim&n=33&w=250&h=250" width="400">
+</div>
+
+<h3>Формы</h3>
+<form> <!-- Форма ввода данных -->
+    <div>
+        <label for="username">Имя:</label> <!-- Надпись для поля ввода -->
+        <input id="username" placeholder="Введите ваше имя"> <!-- Поле ввода данных -->
+    </div>
+    <br> <!-- Разрыв между элементами -->
+    <div>
+        <label for="email">Эл. почта:</label>
+        <input id="email" placeholder="Введите эл. почту"> <!-- Поле ввода данных -->
+    </div>
+    <br>
+    <div>
+        <input id="agree" type="checkbox">
+        <label for="agree">Я согласен на отправку данных</label>
+    </div>
+    <br>
+    <button>Отправить</button>
+</form>
+
+<h3>Ссылки</h3>
+<div>
+    <a href="https://google.com" target="_blank">Ссылка на Гугл</a>
+</div>
+<div>
+    <a href="index2.html" target="_blank">Ссылка на вторую страницу</a>
+</div>
+<div>
+    <a href="#soderzhanie">Ссылка на содержание</a>
 </div>
 </body>
 </html>
