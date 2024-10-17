@@ -1,0 +1,68 @@
+/* CSS: основные понятия */
+
+/* 1. Селекторы */
+
+/* 1.1. Тег элемента */
+body {
+    /* свойство: значение; */
+    background-color: #f0f0f0; /* Задний фон */
+}
+
+/* 1.2. Класс элемента */
+.section {
+    border: 1px solid black; /* Рамка вокруг элемента */
+    margin: 20px;
+    /*padding: 20px;*/
+    padding-left: 20px; /* Внутренний отступ слева */
+}
+
+/* 1.3. Id элемента */
+#selectors {
+    color: red;
+}
+
+/* 1.4. Вложенные элементы */
+#selectors p {
+    color: red;
+}
+
+#classes {
+    color: green;
+}
+
+#classes p {
+    color: green;
+}
+
+#id {
+    color: orange;
+}
+
+#id p {
+    color: orange;
+}
+
+/* 2. Блочная модель */
+.section img {
+    max-width: 500px; /* Максимальная ширина изображения */
+    width: 500px; /* Ширина изображения */
+    height: 300px; /* Высота изображения */
+    max-height: 300px; /* Максимальная высота изображения */
+}
+
+.block-element {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    padding: 20px; /* Внутренние отступы */
+    margin: 20px; /* Внешние отступы */
+}
+
+/* Стилизация текста */
+.text-size {
+    font-size: 24px; /* Изменение размера текста */
+}
+
+.text-weight {
+    font-weight: 700; /* Изменение жирности текста */
+}
