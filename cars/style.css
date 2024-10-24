@@ -1,0 +1,145 @@
+/* 1. Комментарии
+   Этот файл содержит стили для страниц об автомобилях */
+
+/* 2. Селекторы */
+
+/* Тег */
+/* свойство: значение; */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Класс */
+.paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Id */
+#main-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Вложенные элементы */
+div ul {
+    margin-left: 20px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+/* 3. Блочная модель */
+
+/* Устанавливаем размеры и ограничения для изображения */
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+/* Размеры блока с таблицей характеристик */
+table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* 4. Внутренние и внешние отступы */
+
+/* Для блоков основного контента */
+div {
+    margin: 20px auto; /* Внешний отступ */
+    padding: 20px;     /* Внутренний отступ */
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+/* Оформление кнопок */
+button {
+    padding: 10px 20px; /* Внутренние отступы */
+    margin-top: 10px;   /* Внешний отступ */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 5. Свойство display */
+
+/* Элементы, которые будут занимать всю ширину */
+header, section {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Инлайн элементы */
+span {
+    display: inline;
+    font-style: italic;
+    color: #555;
+}
+
+/* Инлайн-блочные элементы */
+a {
+    display: inline-block;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 6. Стилизация текста */
+
+/* Заголовки и основной текст */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: bold; /* Толщина шрифта */
+    font-style: normal;
+}
+
+p {
+    font-size: 16px; /* Размер текста */
+    text-align: justify; /* Выравнивание текста */
+    margin-bottom: 20px;
+}
+
+/* Ссылки */
+a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #007bff; /* Цвет ссылки */
+}
+
+a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}

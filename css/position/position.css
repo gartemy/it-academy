@@ -1,0 +1,49 @@
+body {
+    position: relative;
+    /*height: 2000px;*/
+    padding-top: 80px;
+}
+
+.box {
+    /*display: block; */ /* Блочный элемент */
+    /*display: inline-block; */ /* Строчно-блочный элемент */
+    /*display: inline; */ /* Строчный элемент */
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: blue;
+    /*color: #ffffff;*/ /* HEX-формат */
+    color: rgb(255, 255, 255); /* RGB-формат */
+}
+
+#third {
+    /*position: static; */ /* Статичное позиционирование (по умолчанию) */
+    /*position: relative; !* Относительное позиционирование элемента *!*/
+    position: absolute; /* Абсолютное позиционирование */
+    top: 50%;  /* Отступ сверху */
+    left: 50%;  /* Отступ слева */
+    /*right: 20px;*/ /* Отступ справа */
+    /*bottom: 20px;*/ /* Отступ снизу */
+    background: orange;
+}
+
+#second_child {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background: lightgreen;
+}
+
+.fixed {
+    position: fixed; /* Позиционирование относительно окна */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: darkblue;
+    padding: 10px;
+    color: white;
+}
