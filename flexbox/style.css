@@ -1,0 +1,47 @@
+body {
+	background: #1F5768;
+	height: 98vh; /* Высота 98% от высоты окна браузера */
+}
+
+.pond {
+	display: flex; /* Flex-контейнер */
+	/* flex-direction: row; */ /* Основная ось Flex-контейнера */
+	/* flex-direction: column;  /* По вертикали */
+	/* flex-direction: row-reverse; */  /* По горизонтали в обратном порядке */
+	/* flex-direction: column-reverse; */  /* По вертикали в обратном порядке */
+	/* justify-content: flex-start; */ /* Расположение элементов по главной оси */
+	/* justify-content: center; /* Расположение элементов по центру */
+	/* justify-content: flex-end; */ /* Расположение элементов с правого края */
+	/* justify-content: space-between; /* Расположение элементов по краям */
+	/* justify-content: space-around; /* Расположение элементов по краям с отступами */
+	/* align-items: flex-start; /* Расположение элементов по поперечной оси */
+	/* align-items: center; /* Расположение элементов по центру поперечной оси */
+	/* align-items: flex-end; /* Расположение элементов по низу поперечной оси */
+	/* flex-wrap: nowrap; /* Не переносить элементы на новую строку */
+	flex-wrap: wrap; /* Переносить элементы на новую строку */
+	/* align-content: flex-start; /* Выравнивание контента внутри контейнера */
+	/* align-content: center; /* Выравнивание контента по центру */
+	/* align-content: flex-end; /* Выравнивание контента снизу */
+	/* align-content: space-between; /* Выравнивание контента растянуто */
+	/* align-content: space-around; /* Выравнивание контента растянуто с отступами */
+	height: 100%;
+}
+
+.frog {
+
+}
+
+.yellow {
+	order: 1; /* Порядок отображения элемента */
+}
+
+.red {
+	order: 2; /* Порядок отображения элемента */
+	/* align-self: flex-start; /* Выравнивание отдельного элемента */
+	/* align-self: center; /* Выравнивание отдельного элемента по центру */
+	/* align-self: flex-end; /* Выравнивание отдельного элемента по низу */
+}
+
+.green {
+	order: 3; /* Порядок отображения элемента */
+}
