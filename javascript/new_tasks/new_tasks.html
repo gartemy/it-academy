@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавление задачи</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 4px;
+        }
+        input {
+            width: 98%;
+            padding: 5px 10px;
+        }
+        .form {
+            margin-bottom: 20px;
+        }
+        .form-title, .form-description, .form-category {
+            margin-bottom: 20px;
+        }
+        .form-category {
+            width: 100%;
+        }
+        .category-select {
+            width: 99.6%;
+            padding: 5px 10px;
+        }
+        .search-form {
+            margin: 20px 0;
+        }
+        .search-input {
+            margin-bottom: 16px;
+        }
+        .task {
+            padding: 16px;
+            margin-bottom: 16px;
+            border: 1px solid teal;
+        }
+        .task-number, .task-title, .task-category {
+            margin-bottom: 4px;
+        }
+        .task-description {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h2>Добавление задачи</h2>
+
+        <div class="form-title">
+            <label for="title">Название</label>
+            <input id="title">
+        </div>
+
+        <div class="form-description">
+            <label for="description">Описание</label>
+            <input id="description">
+        </div>
+
+        <button id="button">Добавить</button>
+    </div>
+
+    <hr>
+
+    <div class="search-form">
+        <h2>Поиск задач</h2>
+
+        <div>
+            <label for="search">Название</label>
+            <input id="search" class="search-input" placeholder="Введите название задачи">
+        </div>
+
+        <button id="search-button">Найти</button>
+        <button id="reset-button">Сбросить</button>
+    </div>
+
+    <div id="list"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="new_tasks.js"></script>
+</body>
+</html>

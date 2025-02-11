@@ -1,0 +1,30 @@
+body {
+    font-size: 20px;
+}
+
+.total {
+    font-size: 20px;
+}
+
+#white-button {
+    background: white;
+}
+
+#black-button {
+    background: black;
+    color: white;
+}
+
+#grey-button {
+    background: grey;
+}
+
+#golden-button {
+    background: goldenrod;
+    color: black;
+}
+
+#blue-button {
+    background: darkblue;
+    color: greenyellow;
+}

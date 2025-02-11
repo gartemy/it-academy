@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="контрольная.css">
+</head>
+<body>
+    <div>
+        <button id="white-button">Фон белый, текст черный</button>
+    </div>
+    <div>
+        <button id="black-button">Фон черный, текст белый</button>
+    </div>
+    <div>
+        <button id="grey-button">Фон серый, текст черный</button>
+    </div>
+    <div>
+        <button id="golden-button">Фон goldenrod, текст черный</button>
+    </div>
+    <div>
+        <button id="blue-button">Фон darkblue, текст greenyellow</button>
+    </div>
+    <br>
+    <div>
+        <button id="minus10">Уменьшить на 10</button>
+        <button id="minus1">Уменьшить на 1</button>
+        <button id="plus1">Увеличить на 1</button>
+        <button id="plus10">Увеличить на 10</button>
+    </div>
+
+    <div class="total">
+        Текущее число: <span id="total">0</span>
+        <button id="change">Изменить число на своё</button>
+    </div>
+    <br>
+    <div>Число четное: <span id="even">-</span></div>
+    <div>Число делится на 3 без остатка: <span id="three">-</span></div>
+    <div>Число делится на 5 без остатка: <span id="five">-</span></div>
+    <div>Число делится на 7 без остатка: <span id="seven">-</span></div>
+    <br>
+    <div style="border-top: 1px solid grey;">История четных чисел:</div>
+    <div id="history-even"></div>
+    <br>
+    <div style="border-top: 1px solid grey;">История чисел, делящихся на 3 без остатка:</div>
+    <div id="history-three"></div>
+    <br>
+    <div style="border-top: 1px solid grey;">История чисел, делящихся на 5 без остатка:</div>
+    <div id="history-five"></div>
+    <br>
+    <div style="border-top: 1px solid grey;">История чисел, делящихся на 7 без остатка:</div>
+    <div id="history-seven"></div>
+    <br>
+    <div style="border-top: 1px solid grey;">История остальных чисел:</div>
+    <div id="history"></div>
+
+    <script src="контрольная.js"></script>
+</body>
+</html>

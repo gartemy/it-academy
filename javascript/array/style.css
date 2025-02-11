@@ -1,0 +1,25 @@
+.users-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.user-avatar {
+  text-align: center;
+}
+
+.user-avatar img {
+  width: 90px;
+  height: 90px;
+}
+
+.user-card {
+  width: 280px;
+  height: 280px;
+  border: 1px solid #e0e0e0;
+  padding: 16px;
+}
+
+.user-name {
+  text-align: center;
+}
